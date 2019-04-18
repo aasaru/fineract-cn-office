@@ -108,6 +108,7 @@ license {
 rat {
     // List of exclude directives, defaults to ['**/.gradle/**']
     excludes = [
+            "**/.dockerignore/**",
             "**/.idea/**",
             "**/.gradle/**",
             "**/gradle/**",
